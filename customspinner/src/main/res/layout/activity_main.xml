@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#aa000000"
+    tools:context="com.example.customspinner.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        >
+
+        <EditText
+            android:id="@+id/et_choose_info"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#efff"
+            />
+
+        <ImageView
+            android:id="@+id/iv_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/down_arrow"
+            android:layout_alignRight="@id/et_choose_info"
+            android:layout_centerVertical="true"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
